@@ -46,7 +46,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
                         <li><a href="{{ route('home') }}">Homepage</a></li>
-                        <li><a href="{{ route('about') }}">Features</a></li>
+                        <li><a href="{{ route('about') }}">About</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

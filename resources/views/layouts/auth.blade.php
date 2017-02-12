@@ -21,7 +21,7 @@
         <hr/>
         <div class="row">
             <div class="col-md-6">
-                Piyetra
+                tallrye
             </div>
             <div class="col-md-6 text-right">
                <small>© 2017</small>

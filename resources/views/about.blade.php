@@ -17,6 +17,9 @@
                         Login credentials are: <br>
                         <strong>email:</strong> johndoe@dummy.com <br>
                         <strong>pass:</strong> dummydum
+                        <br>
+                        <br>
+                        <a href="{{ route('login') }}" class="btn btn-primary fullWidth"><i class="fa fa-sign-in"></i> Login Now</a>
                     </p>
                     <hr>
                     <h3>Built with Laravel 5.4</h3>
@@ -61,7 +64,8 @@
                         <li>DataTables</li>
                         <li>Bootstrap Datetime-Picker</li>
                     </ul>
-                    
+                    <hr>
+                    <a href="{{ route('login') }}" class="btn btn-primary fullWidth"><i class="fa fa-sign-in"></i> Login Now</a>
                 </div>
             </div>
             <div class="col-md-3">
