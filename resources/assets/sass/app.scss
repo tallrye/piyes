@@ -1,0 +1,51 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+a{
+	color:$text-color;
+	&:hover{
+		text-decoration: none;
+		color:#333;
+	}
+}
+.brief{
+	background: #fff;
+	padding:15px;
+}
+.fullWidth{
+	width:100%;
+}
+section.articles{
+	margin-bottom: 200px;
+}
+.singleArticle{
+	margin-bottom: 30px;
+}
+.tags{
+	span{
+		display: inline-block;
+		margin-right: 10px;
+		i{
+			display: inline-block;
+			margin-right: 3px;
+		}
+	}
+}
+
+.link{
+	color:#000;
+	text-decoration:underline;
+}
+
+.githubLink{
+	font-size:24px;
+	
+}
