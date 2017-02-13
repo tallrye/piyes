@@ -55,7 +55,7 @@
                     <p>Piyes comes also with basic to-do planner. You should check it out! Create, update and complete tasks with ease-of-use, using Jquery UI.</p>
                     <hr>
                     <h3>Some Front-End Features</h3>
-                    <p>This is application focused on front-end skills, however, here are some technologies I've enjoyed while crafting Piyes:</p>
+                    <p>This is not an application that focuses on front-end skills. In fact, Piyes uses <a target="_blank" href="https://wrapbootstrap.com/theme/inspinia-responsive-admin-theme-WB0R5L90S">Inspinia</a> as front end theme. However, here are some technologies I've enjoyed while crafting Piyes:</p>
                     <ul>
                         <li>Vue JS</li>
                         <li>ChartJS</li>
