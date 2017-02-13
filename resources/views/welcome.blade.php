@@ -10,7 +10,7 @@
                     <p>Please remember, all changes you'll perform in Piyes CMS will be reflected here. Go ahead and create an article, add some gallery images, sort articles, submit the contact form on the right sidebar...</p>
                     <p>
                         Login credentials are: <br>
-                        <strong>email:</strong> s_uzuncavdar@hotmail.com <br>
+                        <strong>email:</strong> s_uzuncavdar@hotmail.com<br>
                         <strong>pass:</strong> dummydum
                         <br><br>
                         <a href="{{ route('login') }}" class="btn btn-primary fullWidth"><i class="fa fa-sign-in"></i> Login Now</a>

@@ -15,7 +15,7 @@
                     <hr>
                     <p>
                         Login credentials are: <br>
-                        <strong>email:</strong> s_uzuncavdar@hotmail.com <br>
+                        <strong>email:</strong> s_uzuncavdar@hotmail.com<br>
                         <strong>pass:</strong> dummydum
                         <br>
                         <br>
