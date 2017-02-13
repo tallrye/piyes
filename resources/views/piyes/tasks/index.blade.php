@@ -82,7 +82,7 @@
 
 @section('scripts')
 <!-- jQuery UI -->
-<script src="{{ url('public/piyes/js/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
-<script src="{{ url('public/js/piyes_tasks.js') }}"></script>
+<script src="{{ url('piyes/js/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+<script src="{{ url('js/piyes_tasks.js') }}"></script>
 
 @endsection

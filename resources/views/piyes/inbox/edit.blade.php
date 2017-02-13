@@ -3,9 +3,9 @@
 @section('title') <title>Piyes | Compose New Mail</title> @endsection
 
 @section('styles')
-    <link href="{{ url('public/piyes/css/plugins/iCheck/custom.css') }}" rel="stylesheet">
-    <link href="{{ url('public/piyes/css/plugins/summernote/summernote.css') }}" rel="stylesheet">
-    <link href="{{ url('public/piyes/css/plugins/summernote/summernote-bs3.css') }}" rel="stylesheet">
+    <link href="{{ url('piyes/css/plugins/iCheck/custom.css') }}" rel="stylesheet">
+    <link href="{{ url('piyes/css/plugins/summernote/summernote.css') }}" rel="stylesheet">
+    <link href="{{ url('piyes/css/plugins/summernote/summernote-bs3.css') }}" rel="stylesheet">
 @endsection
 
 @section('content')
@@ -65,7 +65,7 @@
 
 @section('scripts')
     <!-- iCheck -->
-    <script src="{{ url('public/piyes/js/plugins/iCheck/icheck.min.js') }}"></script>
+    <script src="{{ url('piyes/js/plugins/iCheck/icheck.min.js') }}"></script>
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
     <script>
         var vm = new Vue({

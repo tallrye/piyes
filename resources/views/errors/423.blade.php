@@ -8,11 +8,11 @@
 
     <title>Piyes | Locked Account</title>
 
-    <link href="{{ url('public/piyes/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ url('public/piyes/font-awesome/css/font-awesome.css') }}" rel="stylesheet">
+    <link href="{{ url('piyes/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url('piyes/font-awesome/css/font-awesome.css') }}" rel="stylesheet">
 
-    <link href="{{ url('public/piyes/css/animate.css') }}" rel="stylesheet">
-    <link href="{{ url('public/piyes/css/style.css') }}" rel="stylesheet">
+    <link href="{{ url('piyes/css/animate.css') }}" rel="stylesheet">
+    <link href="{{ url('piyes/css/style.css') }}" rel="stylesheet">
 
 </head>
 
@@ -33,8 +33,8 @@
     </div>
 
     <!-- Mainly scripts -->
-    <script src="{{ url('public/piyes/js/jquery-3.1.1.min.js') }}"></script>
-    <script src="{{ url('public/piyes/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url('piyes/js/jquery-3.1.1.min.js') }}"></script>
+    <script src="{{ url('piyes/js/bootstrap.min.js') }}"></script>
 
 </body>
 

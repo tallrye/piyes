@@ -3,7 +3,7 @@
 @section('title') <title>Piyes | Inbox</title> @endsection
 
 @section('styles')
-    <link href="{{ url('public/piyes/css/plugins/iCheck/custom.css') }}" rel="stylesheet">
+    <link href="{{ url('piyes/css/plugins/iCheck/custom.css') }}" rel="stylesheet">
 @endsection
 
 @section('content')
@@ -113,7 +113,7 @@
 @endsection
 
 @section('scripts')
-    <script src="{{ url('public/piyes/js/plugins/iCheck/icheck.min.js') }}"></script>
+    <script src="{{ url('piyes/js/plugins/iCheck/icheck.min.js') }}"></script>
     <script>
         $(document).ready(function(){
             $('.i-checks').iCheck({

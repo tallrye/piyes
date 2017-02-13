@@ -26,9 +26,9 @@
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 singleArticle">
                             <a href="{{ route('detail', ['url' => $article->url]) }}">
                                 @if($article->main_image)
-                                <img src="{{ url('public/storage/'.$article->main_image) }}" class="img-responsive fullWidth" alt="">
+                                <img src="{{ url('storage/'.$article->main_image) }}" class="img-responsive fullWidth" alt="">
                                 @else
-                                <img src="{{ url('public/piyes/img/default.png') }}" class="img-responsive fullWidth" alt="">
+                                <img src="{{ url('piyes/img/default.png') }}" class="img-responsive fullWidth" alt="">
                                 @endif
                                 <div class="brief clearfix">
                                     <h4>{{ $article->title }}</h4>

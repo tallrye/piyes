@@ -9,11 +9,11 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Piyes Blog') }}</title>
-    <link rel="shortcut icon" href="{{ url('public/piyes/favicon.ico') }}" /> 
+    <link rel="shortcut icon" href="{{ url('piyes/favicon.ico') }}" /> 
 
     <!-- Styles -->
-    <link href="{{ url('public/css/app.css') }}" rel="stylesheet">
-    <link href="{{ url('public/piyes/font-awesome/css/font-awesome.css') }}" rel="stylesheet">
+    <link href="{{ url('css/app.css') }}" rel="stylesheet">
+    <link href="{{ url('piyes/font-awesome/css/font-awesome.css') }}" rel="stylesheet">
 
     <!-- Scripts -->
     <script>
@@ -84,6 +84,6 @@
 
 
     <!-- Scripts -->
-    <script src="{{ url('public//js/app.js') }}"></script>
+    <script src="{{ url('/js/app.js') }}"></script>
 </body>
 </html>

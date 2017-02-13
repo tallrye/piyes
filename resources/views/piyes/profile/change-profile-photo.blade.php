@@ -3,7 +3,7 @@
 @section('title') <title>Piyes | Change Profile Photo</title> @endsection
 
 @section('styles')
-	<link href="{{ asset('public/piyes/js/plugins/jcrop/css/jquery.Jcrop.min.css') }}" rel="stylesheet" type="text/css"/>
+	<link href="{{ asset('piyes/js/plugins/jcrop/css/jquery.Jcrop.min.css') }}" rel="stylesheet" type="text/css"/>
 @endsection
 
 @section('content')
@@ -72,8 +72,8 @@
 @endsection
 
 @section('scripts')
-	<script src="{{ asset('public/piyes/js/plugins/jcrop/js/jquery.Jcrop.min.js') }}"></script>
-    <script src="{{ asset('public/piyes/js/plugins/jcrop/js/bootstrap-fileinput.js') }}"></script>
+	<script src="{{ asset('piyes/js/plugins/jcrop/js/jquery.Jcrop.min.js') }}"></script>
+    <script src="{{ asset('piyes/js/plugins/jcrop/js/bootstrap-fileinput.js') }}"></script>
     <script>
 
     	var cropOptions = {

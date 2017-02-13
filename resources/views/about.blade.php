@@ -36,14 +36,14 @@
                     <hr>
                     <h3>Google Analytics API</h3>
                     <p>Thanks to <a class="link" href="https://github.com/spatie/laravel-analytics" target="_blank">spatie/laravel-analytics</a>, all Google Analytics data in the dashboard comes from my <a class="link" target="_blank" href="http://serhatuzuncavdar.com">personal website</a></p>
-                    <img src="{{ url('public/piyes/img/screenshots/google_api.png') }}" class="img-responsive fullWidth" alt="">
+                    <img src="{{ url('piyes/img/screenshots/google_api.png') }}" class="img-responsive fullWidth" alt="">
                     <hr>
                     <h3>Contact Form Messages Goes To Inbox</h3>
                     <p>All forms are editable from the Piyes. Once you create a contact form, you can also specify where those messages should be redirected to. Surely, a developer touch is required to connect right form from right page. But this way, once website is built, you can always manage recievers seperately, form by form.</p>
-                    <img src="{{ url('public/piyes/img/screenshots/forms.png') }}" class="img-responsive fullWidth" alt="">
+                    <img src="{{ url('piyes/img/screenshots/forms.png') }}" class="img-responsive fullWidth" alt="">
                     <br>
                     <p>And all those messages are accessible through the Inbox. You can always access messages from your website using Piyes Inbox</p>
-                    <img src="{{ url('public/piyes/img/screenshots/inbox.png') }}" class="img-responsive fullWidth" alt="">
+                    <img src="{{ url('piyes/img/screenshots/inbox.png') }}" class="img-responsive fullWidth" alt="">
                     <br>
                     <p>You can reply a message, compose new message, mark as imporant or move to trash. Basic stuff...</p>
                     <hr>

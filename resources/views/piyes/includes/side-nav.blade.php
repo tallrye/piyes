@@ -5,7 +5,7 @@
                 <div class="dropdown profile-element"> 
                     <span>
                         <img alt="image" class="img-circle img-responsive" width="48" 
-                            src="{{ (auth()->user()->settings->profile_photo) ? url('public/storage/profile-photos/'.auth()->user()->settings->profile_photo) :  url('public/piyes/img/avatar.png') }}" 
+                            src="{{ (auth()->user()->settings->profile_photo) ? url('storage/profile-photos/'.auth()->user()->settings->profile_photo) :  url('piyes/img/avatar.png') }}" 
                         />
                      </span>
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">

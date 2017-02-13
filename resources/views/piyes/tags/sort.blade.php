@@ -48,7 +48,7 @@
 
 @section('scripts')
 	<!-- jQuery UI -->
-	<script src="{{ url('public/piyes/js/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+	<script src="{{ url('piyes/js/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
 	<script>
         $(document).ready(function(){
             $("#sort-list").sortable({

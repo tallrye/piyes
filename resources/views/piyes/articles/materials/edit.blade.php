@@ -5,11 +5,11 @@
 @section('content')
 
 @section('styles')
-	<link href="{{ asset('public/piyes/js/plugins/jcrop/css/jquery.Jcrop.min.css') }}" rel="stylesheet" type="text/css"/>
-	<link href="{{ asset('public/piyes/css/plugins/switchery/switchery.css') }}" rel="stylesheet">
-	<link href="{{ asset('public/piyes/css/plugins/datapicker/datepicker3.css') }}" rel="stylesheet">
-	<link href="{{ asset('public/piyes/css/plugins/jasny/jasny-bootstrap.min.css') }}" rel="stylesheet">
-	<link href="{{ asset('public/piyes/css/plugins/blueimp/css/blueimp-gallery.min.css') }}" rel="stylesheet">
+	<link href="{{ asset('piyes/js/plugins/jcrop/css/jquery.Jcrop.min.css') }}" rel="stylesheet" type="text/css"/>
+	<link href="{{ asset('piyes/css/plugins/switchery/switchery.css') }}" rel="stylesheet">
+	<link href="{{ asset('piyes/css/plugins/datapicker/datepicker3.css') }}" rel="stylesheet">
+	<link href="{{ asset('piyes/css/plugins/jasny/jasny-bootstrap.min.css') }}" rel="stylesheet">
+	<link href="{{ asset('piyes/css/plugins/blueimp/css/blueimp-gallery.min.css') }}" rel="stylesheet">
 @endsection
 
 @component('piyes.components.breadcrumb') 
@@ -87,7 +87,7 @@
 			                            <div class="form-group">
 			                                <label class="control-label col-sm-3">Current File</label>
 			                                <div class="input-group col-sm-9">
-			                                   	<a target="_blank" class="btn btn-success" href="{{ url('public/storage/'.$record->main_file) }}">
+			                                   	<a target="_blank" class="btn btn-success" href="{{ url('storage/'.$record->main_file) }}">
 			                                   		<i class="fa fa-eye"></i> View On New Tab
 			                                   	</a>
 			                                   	
@@ -114,17 +114,17 @@
 
 @section('scripts')
 	<!-- Jasny -->
-    <script src="{{ asset('public/piyes/js/plugins/jasny/jasny-bootstrap.min.js') }}"></script>
-	<script src="{{ asset('public/piyes/js/plugins/jcrop/js/jquery.Jcrop.min.js') }}"></script>
-    <script src="{{ asset('public/piyes/js/plugins/jcrop/js/bootstrap-fileinput.js') }}"></script>
+    <script src="{{ asset('piyes/js/plugins/jasny/jasny-bootstrap.min.js') }}"></script>
+	<script src="{{ asset('piyes/js/plugins/jcrop/js/jquery.Jcrop.min.js') }}"></script>
+    <script src="{{ asset('piyes/js/plugins/jcrop/js/bootstrap-fileinput.js') }}"></script>
     <!-- Switchery -->
-   	<script src="{{ asset('public/piyes/js/plugins/switchery/switchery.js') }}"></script>
+   	<script src="{{ asset('piyes/js/plugins/switchery/switchery.js') }}"></script>
    	<!-- Data picker -->
-   	<script src="{{ asset('public/piyes/js/plugins/datapicker/bootstrap-datepicker.js') }}"></script>
+   	<script src="{{ asset('piyes/js/plugins/datapicker/bootstrap-datepicker.js') }}"></script>
    	<!-- blueimp gallery -->
-    <script src="{{ asset('public/piyes/js/plugins/blueimp/jquery.blueimp-gallery.min.js') }}"></script>
+    <script src="{{ asset('piyes/js/plugins/blueimp/jquery.blueimp-gallery.min.js') }}"></script>
     <!-- jQuery UI -->
-	<script src="{{ url('public/piyes/js/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+	<script src="{{ url('piyes/js/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
 	<script>
 		var cropOptions = {
             fileInput : '#cropMe',

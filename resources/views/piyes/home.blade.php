@@ -3,7 +3,7 @@
 @section('title') <title>Piyes | Dashboard</title> @endsection
 
 @section('styles')
-    <link href="{{ url('public/piyes/css/plugins/morris/morris-0.4.3.min.css') }}" rel="stylesheet">
+    <link href="{{ url('piyes/css/plugins/morris/morris-0.4.3.min.css') }}" rel="stylesheet">
 @endsection
 
 @section('content')
@@ -266,10 +266,10 @@
 
 @section('scripts')
 <!-- jQuery UI -->
-<script src="{{ url('public/piyes/js/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
-<script src="{{ url('public/js/piyes_tasks.js') }}"></script>
+<script src="{{ url('piyes/js/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+<script src="{{ url('js/piyes_tasks.js') }}"></script>
 <!-- ChartJS-->
-<script src="{{ url('public/piyes/js/plugins/chartJs/Chart.min.js') }}"></script>
+<script src="{{ url('piyes/js/plugins/chartJs/Chart.min.js') }}"></script>
 <script>
    $(document).ready(function() {
 

@@ -12,9 +12,9 @@
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 singleArticle">
                             @if($article->main_image)
-                            <img src="{{ url('public/storage/'.$article->main_image) }}" class="img-responsive fullWidth" alt="">
+                            <img src="{{ url('storage/'.$article->main_image) }}" class="img-responsive fullWidth" alt="">
                             @else
-                            <img src="{{ url('public/piyes/img/default.png') }}" class="img-responsive fullWidth" alt="">
+                            <img src="{{ url('piyes/img/default.png') }}" class="img-responsive fullWidth" alt="">
                             @endif
                             <div class="brief clearfix">
                                 <div class="row">
@@ -28,7 +28,7 @@
                                     </div>
                                     @if($article->main_file)
                                     <div class="col-md-6">
-                                        <a class="btn btn-sm btn-primary pull-right" download href="{{ url('public/storage/'.$article->main_file) }}"><i class="fa fa-download"></i> Download Main File</a>
+                                        <a class="btn btn-sm btn-primary pull-right" download href="{{ url('storage/'.$article->main_file) }}"><i class="fa fa-download"></i> Download Main File</a>
                                     </div>
                                     @endif
                                 </div>
@@ -37,7 +37,7 @@
                                 <div class="gallery row">
                                     @foreach($article->materials->where('publish', true)->sortBy('position') as $material)
                                     <div class="col-md-4">
-                                        <a class="btn btn-sm btn-info" download href="{{ url('public/storage/'.$material->main_file) }}"><i class="fa fa-download"></i> {{ $material->title }}</a>
+                                        <a class="btn btn-sm btn-info" download href="{{ url('storage/'.$material->main_file) }}"><i class="fa fa-download"></i> {{ $material->title }}</a>
                                     </div>
                                     @endforeach
                                 </div>
@@ -46,7 +46,7 @@
                                 <div class="gallery row">
                                     @foreach($article->images->where('publish', true)->sortBy('position') as $image)
                                     <div class="col-md-4">
-                                        <img src="{{ url('public/storage/'.$image->main_image) }}" class="img-responsive fullWidth" alt="">
+                                        <img src="{{ url('storage/'.$image->main_image) }}" class="img-responsive fullWidth" alt="">
                                     </div>
                                     @endforeach
                                 </div>
