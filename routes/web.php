@@ -31,7 +31,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale()], function()
 
 Auth::routes();
 Route::group(['prefix' => LaravelLocalization::setLocale()], function(){
-    Route::prefix('piyes')->middleware('auth')->as('piyes.')->namespace('piyes')->group(function(){
+    Route::prefix('piyes')->middleware('auth')->as('piyes.')->namespace('Piyes')->group(function(){
         Route::name('home')->get('/home', 'HomeController@index');
         Route::name('search')->get('/search', 'SearchController@search');
         Route::name('change-settings')->post('/settings', 'UserProfileController@changeSettings');
